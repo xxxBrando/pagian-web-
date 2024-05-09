@@ -1,0 +1,62 @@
+.tituloprincipal{
+padding-left: 30px;
+}
+
+#barber{
+
+width: 100%;
+
+}
+
+.principal{
+    background: #cccccc;
+    padding: 20px;
+}
+
+.titulocentralizado{ 
+    text-align: center;
+     color:rgb(18, 18, 58);
+}
+
+
+p{
+    text-align: center;
+  
+}
+
+
+
+em strong{
+color: red;
+
+}
+
+#mision{
+    font-size: 20px;
+}
+
+.difrenciales{
+background-color:white;
+padding: 40px;
+}
+.titulolistas{
+text-align: center ;
+
+}
+
+.items{
+
+   font-style: italic; 
+}
+ul{
+display: inline-block;
+vertical-align: top;
+width: 20%;
+margin-right: 15%;
+}
+
+.imagendiferencial{
+width: 20%;
+height: 50% ;
+
+}

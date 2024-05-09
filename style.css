@@ -1,0 +1,290 @@
+body{
+    font-family: "Montserrat", sans-serif;
+
+
+}
+
+
+header{
+background-color:#cccccc;
+padding: 20px 0;
+}
+
+.caja{
+width: 940px;
+position: relative;
+margin: 0 auto;
+}
+
+
+nav{
+position:absolute;
+top: 110px;
+right: 0;
+ 
+
+}
+nav li{
+display: inline;
+margin: 0 0 0 15px;
+}
+
+nav a{
+text-transform: uppercase;
+color:black;
+font-weight: bold;
+font-size: 22px;
+text-decoration: none;
+
+}
+
+nav a:hover{
+    color:#c78c19;
+    text-decoration: underline;
+}
+
+.productos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+.productos li{
+ display: inline-block;   
+text-align: center;    
+width: 30%;
+vertical-align: top;
+margin: 0 1.5%;
+padding: 30px 20px;
+box-sizing: border-box;
+border: 2px solid #000000;
+border-radius: 10px;
+}
+
+.productos li:hover{
+ border-color:#c78c19;
+
+}
+
+.productos li:active{
+    border-color: blue ;
+}
+
+
+.productos h2{
+font-size: 30px;
+font-weight: bold;
+}
+
+.productos li:hover h2{
+    font-size: 33px;
+}
+
+.producto-descripcion{
+ font-size: 18px;
+
+
+}
+
+.producto-precio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer{
+    text-align: center;
+   background-color: #000000;
+   padding: 40px;
+}
+
+.copyright{
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px;
+}
+
+form{
+    margin: 40px 0;
+}
+form label,form p{
+    display:block;
+    font-size: 20px;
+    margin:0 0 10px;
+}
+
+.clase_padron{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox{
+margin: 35px 0;
+
+}
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor:pointer
+}
+.enviar:hover{
+background-color:blue;
+transform: scale(1.2);
+}
+
+
+table{
+margin:40px 40px;
+
+}
+thead{
+    background-color: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td , th{
+border: 1px solid black;
+padding: 8px 15px;
+}
+
+
+/*CSS PARA NUESTRA HOME*/
+
+
+
+.barber{
+width: 100%;
+
+}
+.principal{
+    padding: 3em 0;
+    background-color: #fefefe;
+    width: 940px;
+    margin: 0 auto;
+}
+
+
+
+.tituloprincipal{
+text-align: center;
+font-size: 2em;
+margin: 0 0 1em;
+clear: left;
+
+
+}
+
+.principal p{
+margin: 0 0 1em;
+
+}
+
+.principal strong{
+font-weight: bold;
+
+}
+
+.principal em{
+font-style: italic;
+
+}
+.mapa{
+padding: 3em 0;
+}
+
+.mapa p{
+    text-align: center;
+    margin: 0 0 2em ;
+}
+
+
+.mapa-contenido{
+width: 940px;   
+margin: 0 auto;
+
+}
+
+.diferenciales{
+padding:  3em 0;
+background-color:#888888 ;
+}
+
+.contenidodiferenciles{
+    width: 640px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.listadiferenciales{
+width: 40%;
+display: inline-block;
+vertical-align: top;
+
+}
+
+.items{
+line-height: 1.5;
+
+}
+
+.items:nth-child(1){
+  font-weight: bold;
+
+}
+
+.items:before{
+    content:"🟐";
+    }
+
+.imagendiferencial{
+   width: 40%;
+   transition: 400ms;
+   box-shadow: 10px 10px 30px 15px #000000;
+}
+
+.imagendiferencial:hover{
+    opacity: .3;
+
+}
+
+.utensilios{
+width: 120px;    
+float: left;
+margin: 0 20px 20px 0;
+}      
+
+
+.video{
+  width: 560px;
+  margin: 1em auto;
+}
+@media screen and (max-width:480px){
+h1{
+    text-align: center;
+}
+nav{
+
+    position: static;
+}
+    .caja , .principal, .mapa-contenido,.contenidodiferenciles, .video {
+width: auto;
+}
+
+.listadiferenciales, .imagendiferencial{
+    width: 100%;
+}
+}
+
+
+
+
+

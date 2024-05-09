@@ -1,0 +1,110 @@
+<!DOCTYPE html> 
+
+
+<html>
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>contacto</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+
+<body>
+    
+    <header>
+       <div class="caja">
+                 <h1><img src="C:\Users\brand\OneDrive\Escritorio\cursos alura\pagina alura\imagenes/logo.png" alt="logo de la varberia"></h1>
+        <nav>
+                 <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="productos.html">productos</a></li>
+                <li><a href="contacto.html">contacto</a></li>
+                </ul>
+        </nav>
+
+       </div>   
+    </header>    
+    
+    
+
+    <main>
+        <form>
+            <label for="NombreyApellido">Nombre y apellido</label>
+            <input type="text" id="NombreyApellido" class="clase_padron" required>
+    
+            <label for="correoElectronico">Correo electrónico</label>
+            <input type="email" id="correoElectronico" class="clase_padron" required  placeholder="email@dominio.com">
+    
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" class="clase_padron"  required   placeholder="(xx)xxxx xxxx">
+            
+            <label  for="cuadro">Mensaje </label>
+            <textarea cols="70" rows="10" id="cuadro"></textarea  required>
+    
+            <div>
+                <p>¿Cómo le gustaría que lo contactemos?</p>
+                <label><input type="radio" name="contacto" value="email"> Email</label>
+                <label><input type="radio" name="contacto" value="telefono"> Teléfono</label>
+                <label><input type="radio" name="contacto" value="wasap" checked> WhatsApp</label>
+            </div>
+            
+            <div>
+                    <p>¿En cual horario desea ser atendido?</p>
+                    <select>
+                        <option>Mañana</option>
+                        <option>Tarde</option>
+                        <option>Noche</option>
+                    </select>
+                </div> 
+           
+            <label class="checkbox"><input type="checkbox" checked> ¿Le gustaría recibir novedades de la barvereia Alura?</label>
+            <input type="submit" value="Enviar Formulario" class="enviar">
+        </form>
+   
+            <table>
+
+                <thead>
+
+                 <tr>
+                        <th>Dia</th>
+                        <th>Horario</th>
+                  </tr>
+
+
+                </thead>
+                  
+                <tbody>
+                    <tr>
+                        <td>lunes</td>
+                        <td>8hr-20hr</td>
+                   </tr>
+
+                    <tr>
+                        <td>miercoles</td>
+                        <td>8hr-20hr</td>
+                   </tr>
+
+
+                   <tr>
+                        <td>viernes</td>
+                        <td>8hr-20hr</td>
+                   </tr>
+                </tbody>
+            </table>
+        
+    </main>
+   
+
+
+
+    <footer>
+        <img src="C:\Users\brand\OneDrive\Escritorio\cursos alura\pagina alura\imagenes/logo-blanco.png" alt="logo barberia alura">
+        <p  class="copyright"> &copy copyright Barberia Alura -2020</p>
+     
+        </footer>
+     </body>
+     </html>
